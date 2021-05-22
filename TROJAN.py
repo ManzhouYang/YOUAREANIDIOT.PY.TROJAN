@@ -1,4 +1,5 @@
-import tkinter as tk, random
+import tkinter as tk, random, urllib.request as request
+response=request.urlopen("https://openclipart.org/image/800px/279689")
 while True:
     root=tk.Tk()
     x = random.randint(-500, 1400)
